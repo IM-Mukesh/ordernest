@@ -1,10 +1,13 @@
-import logo from "./logo.svg";
-import "./App.css";
-import QRGenerator from "./components/QRGenerator";
+import Homepage from "./components/Homepage";
 function App() {
   return (
     <div className="App">
-      <QRGenerator />
+      {/* <QRGenerator />
+      <ImageGenerator /> */}
+      {/* <LoginPage /> */}
+      {/* <S3ImageUpload /> */}
+      {/* <S3ImageUpload2 /> */}
+      <Homepage />
     </div>
   );
 }
